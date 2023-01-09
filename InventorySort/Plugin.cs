@@ -109,6 +109,7 @@ namespace InventorySort
 
             var btn = obj.GetComponent<Button>();
             btn.onClick.AddListener(SortPlayerInventory);
+            //TODO: Sort button in player inventory cannot be clicked for some reason...requires the use of the assigned Hotkey ('R' by default)
             obj.SetActive(true);
             return obj;
         }
